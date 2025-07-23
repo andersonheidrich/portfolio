@@ -40,19 +40,31 @@ const Header = () => {
         </Style.Navigation>
       </Style.Top>
       <Style.Contact>
-        <a href="https://github.com/andersonheidrich/" target="_blank">
+        <a
+          href="https://github.com/andersonheidrich/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <GitHubIcon
             style={{ width: "28px", height: "28px" }}
             className="contact-icon"
           />
         </a>
-        <a href="https://www.linkedin.com/in/andersonheidrich/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/andersonheidrich/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <LinkedInIcon
             style={{ width: "28px", height: "28px" }}
             className="contact-icon"
           />
         </a>
-        <a href="https://www.instagram.com/anderson_heidrich/" target="_blank">
+        <a
+          href="https://www.instagram.com/anderson_heidrich/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <InstagramIcon
             style={{ width: "28px", height: "28px" }}
             className="contact-icon"

@@ -10,7 +10,11 @@ const Projects = () => {
   return (
     <Style.Section>
       <div id="projects" />
-      <a href="https://realizador-de-sorteios.vercel.app/" target="_blank">
+      <a
+        href="https://realizador-de-sorteios.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Style.Card>
           <Style.Image>
             <img src={Sorteador} />
@@ -31,7 +35,11 @@ const Projects = () => {
           </Style.Content>
         </Style.Card>
       </a>
-      <a href="https://andersonheidrich-to-do-list.vercel.app/" target="_blank">
+      <a
+        href="https://andersonheidrich-to-do-list.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Style.Card>
           <Style.Image>
             <img src={Todolist} />
@@ -48,6 +56,7 @@ const Projects = () => {
       <a
         href="https://e-commerce-games-andersonheidrich.vercel.app/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Style.Card>
           <Style.Image>
@@ -65,7 +74,11 @@ const Projects = () => {
           </Style.Content>
         </Style.Card>
       </a>
-      <a href="https://landing-page-games.vercel.app/" target="_blank">
+      <a
+        href="https://landing-page-games.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Style.Card>
           <Style.Image>
             <img src={Games} />
@@ -82,7 +95,11 @@ const Projects = () => {
           </Style.Content>
         </Style.Card>
       </a>
-      <a href="https://andersonheidrichcalculator.vercel.app/" target="_blank">
+      <a
+        href="https://andersonheidrichcalculator.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Style.Card>
           <Style.Image>
             <img src={Calculator} />

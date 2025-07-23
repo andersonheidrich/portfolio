@@ -5,7 +5,11 @@ const Experience = () => {
   return (
     <Style.Section>
       <div id="experience" />
-      <a href="https://www.instagram.com/labenu_/" target="_blank">
+      <a
+        href="https://www.instagram.com/labenu_/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Style.Card>
           <Style.Period>MAI 2021 — NOV 2021</Style.Period>
           <Style.Content>
@@ -36,7 +40,11 @@ const Experience = () => {
           </Style.Content>
         </Style.Card>
       </a>
-      <a href="https://www.freatz.com/" target="_blank">
+      <a
+        href="https://www.freatz.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Style.Card>
           <Style.Period>DEZ 2021 — NOV 2024</Style.Period>
           <Style.Content>
