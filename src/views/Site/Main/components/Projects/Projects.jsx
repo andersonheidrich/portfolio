@@ -31,6 +31,7 @@ const Projects = () => {
               <Style.Stack>JavaScript</Style.Stack>
               <Style.Stack>React</Style.Stack>
               <Style.Stack>Styled Components</Style.Stack>
+              <Style.Stack>Vercel</Style.Stack>
             </Style.StackGroup>
           </Style.Content>
         </Style.Card>
@@ -48,7 +49,12 @@ const Projects = () => {
             <Style.Title>To Do List</Style.Title>
             <Style.Text></Style.Text>
             <Style.StackGroup>
-              <Style.Stack></Style.Stack>
+              <Style.Stack>HTML</Style.Stack>
+              <Style.Stack>CSS</Style.Stack>
+              <Style.Stack>JavaScript</Style.Stack>
+              <Style.Stack>React</Style.Stack>
+              <Style.Stack>Styled Components</Style.Stack>
+              <Style.Stack>Vercel</Style.Stack>
             </Style.StackGroup>
           </Style.Content>
         </Style.Card>
@@ -69,7 +75,13 @@ const Projects = () => {
               eletrônicos.
             </Style.Text>
             <Style.StackGroup>
-              <Style.Stack></Style.Stack>
+              <Style.Stack>HTML</Style.Stack>
+              <Style.Stack>CSS</Style.Stack>
+              <Style.Stack>JavaScript</Style.Stack>
+              <Style.Stack>React</Style.Stack>
+              <Style.Stack>Styled Components</Style.Stack>
+              <Style.Stack>Swiper</Style.Stack>
+              <Style.Stack>Vercel</Style.Stack>
             </Style.StackGroup>
           </Style.Content>
         </Style.Card>
@@ -90,7 +102,13 @@ const Projects = () => {
               eletrônicos desde a infância até os dias atuais.
             </Style.Text>
             <Style.StackGroup>
-              <Style.Stack></Style.Stack>
+              <Style.Stack>HTML</Style.Stack>
+              <Style.Stack>CSS</Style.Stack>
+              <Style.Stack>JavaScript</Style.Stack>
+              <Style.Stack>React</Style.Stack>
+              <Style.Stack>Styled Components</Style.Stack>
+              <Style.Stack>Swiper</Style.Stack>
+              <Style.Stack>Vercel</Style.Stack>
             </Style.StackGroup>
           </Style.Content>
         </Style.Card>
@@ -108,7 +126,12 @@ const Projects = () => {
             <Style.Title>Calculadora</Style.Title>
             <Style.Text>Uma calculadora simples.</Style.Text>
             <Style.StackGroup>
-              <Style.Stack></Style.Stack>
+              <Style.Stack>HTML</Style.Stack>
+              <Style.Stack>CSS</Style.Stack>
+              <Style.Stack>JavaScript</Style.Stack>
+              <Style.Stack>React</Style.Stack>
+              <Style.Stack>Styled Components</Style.Stack>
+              <Style.Stack>Vercel</Style.Stack>
             </Style.StackGroup>
           </Style.Content>
         </Style.Card>

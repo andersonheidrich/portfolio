@@ -24,7 +24,6 @@ export const Period = styled.div`
   font-size: 14px;
   font-weight: bold;
   width: 200px;
-  /* color: #ed6104; */
   opacity: 0.9;
 `;
 
@@ -40,6 +39,7 @@ export const Title = styled.div`
   display: flex;
   margin-bottom: 16px;
   font-weight: bold;
+  color: #ed6104;
 `;
 
 export const Text = styled.div`
@@ -50,8 +50,8 @@ export const Text = styled.div`
 
 export const StackGroup = styled.div`
   display: flex;
-  /* width: 100%; */
 `;
+
 export const Stack = styled.div`
   display: flex;
   border-radius: 24px;
@@ -59,6 +59,5 @@ export const Stack = styled.div`
   padding: 8px;
   font-size: 12px;
   font-weight: bold;
-  /* color: #131a2a; */
   background-color: #ed6104;
 `;

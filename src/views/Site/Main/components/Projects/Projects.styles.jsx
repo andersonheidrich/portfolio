@@ -42,6 +42,7 @@ export const Title = styled.div`
   display: flex;
   margin-bottom: 16px;
   font-weight: bold;
+  color: #ed6104;
 `;
 
 export const Text = styled.div`
