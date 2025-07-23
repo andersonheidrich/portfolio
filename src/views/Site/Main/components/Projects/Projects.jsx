@@ -1,4 +1,3 @@
-import React from "react";
 import * as Style from "./Projects.styles";
 import Sorteador from "../../../../../images/Projects/sorteador.png";
 import Todolist from "../../../../../images/Projects/todolist.png";
@@ -22,8 +21,11 @@ const Projects = () => {
           <Style.Content>
             <Style.Title>Sorteador Online</Style.Title>
             <Style.Text>
-              Criado para realizar sorteios de torneios de Beach Tennis, Padel,
-              Tênis e qualquer outro esporte jogado em duplas ou 1x1.
+              A aplicação foi inicialmente criada para automatizar sorteios de
+              torneios de Beach Tennis — modalidade que pratico. Atualmente,
+              está adaptada para realizar sorteios de qualquer esporte disputado
+              em duplas ou confrontos individuais (1x1), oferecendo
+              flexibilidade e praticidade na organização de competições.
             </Style.Text>
             <Style.StackGroup>
               <Style.Stack>HTML</Style.Stack>
@@ -47,7 +49,13 @@ const Projects = () => {
           </Style.Image>
           <Style.Content>
             <Style.Title>To Do List</Style.Title>
-            <Style.Text></Style.Text>
+            <Style.Text>
+              Ferramenta desenvolvida para ajudar usuários a organizarem suas
+              atividades do dia a dia de forma prática e eficiente. Seu
+              principal objetivo é permitir que o usuário registre, visualize,
+              edite e conclua tarefas em um só lugar, promovendo maior controle
+              e produtividade.
+            </Style.Text>
             <Style.StackGroup>
               <Style.Stack>HTML</Style.Stack>
               <Style.Stack>CSS</Style.Stack>
@@ -98,8 +106,13 @@ const Projects = () => {
           <Style.Content>
             <Style.Title>Landing Page Games</Style.Title>
             <Style.Text>
-              Landing page contando um pouco sobre minha paixão por jogos
-              eletrônicos desde a infância até os dias atuais.
+              Dedicada à minha jornada no universo dos jogos eletrônicos,
+              compartilhando um pouco da minha paixão que nasceu ainda na
+              infância e dura até hoje. Desde os primeiros contatos com consoles
+              e jogos clássicos, até os títulos atuais que continuam despertando
+              o mesmo entusiasmo de antigamente. Aqui, divido experiências,
+              memórias, influências e como os games se tornaram parte essencial
+              da minha vida pessoal e criativa.
             </Style.Text>
             <Style.StackGroup>
               <Style.Stack>HTML</Style.Stack>
@@ -124,7 +137,14 @@ const Projects = () => {
           </Style.Image>
           <Style.Content>
             <Style.Title>Calculadora</Style.Title>
-            <Style.Text>Uma calculadora simples.</Style.Text>
+            <Style.Text>
+              Desenvolvida para realizar as quatro operações matemáticas
+              fundamentais: adição, subtração, multiplicação e divisão. Com uma
+              interface intuitiva e fácil de usar, ela permite que o usuário
+              insira números e escolha a operação desejada. O resultado é
+              exibido instantaneamente, facilitando o uso tanto para fins
+              educacionais quanto para cálculos do dia a dia.
+            </Style.Text>
             <Style.StackGroup>
               <Style.Stack>HTML</Style.Stack>
               <Style.Stack>CSS</Style.Stack>

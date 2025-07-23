@@ -22,13 +22,10 @@ export const Card = styled.div`
 export const Image = styled.div`
   display: flex;
   margin-right: 16px;
-  width: 200px;
-  height: auto;
-  /* max-width: 200px; */
 
   img {
     width: 200px;
-    height: auto;
+    height: 168px;
     border-radius: 4px;
   }
 `;
