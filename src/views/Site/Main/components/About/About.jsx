@@ -4,6 +4,7 @@ import * as Style from "./About.styles";
 const About = () => {
   return (
     <Style.Section>
+      <div id="about" />
       <Style.Content>
         <p style={{ margin: "12px 0 40px" }}>
           Desenvolvedor Front-End com 3 anos de experiência em React.js,

@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import * as Style from "./Navbar.styles";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -6,7 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 // import LogoIMG from "../../images/logo.png";
 
 const Header = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <Style.Container>
@@ -20,30 +20,21 @@ const Header = () => {
         <Style.Navigation>
           <Style.Menu>
             <div className="nav-menu">
-              <div
-                className="menu-item"
-                onClick={() => {
-                  navigate("#about");
-                }}
-              >
-                <span>SOBRE</span>
-              </div>
-              <div
-                className="menu-item"
-                onClick={() => {
-                  navigate("#experience");
-                }}
-              >
-                <span>EXPERIÊNCIA</span>
-              </div>
-              <div
-                className="menu-item"
-                onClick={() => {
-                  navigate("#projects");
-                }}
-              >
-                <span>PROJETOS</span>
-              </div>
+              <a href="#about">
+                <div className="menu-item">
+                  <span>SOBRE</span>
+                </div>
+              </a>
+              <a href="#experience">
+                <div className="menu-item">
+                  <span>EXPERIÊNCIA</span>
+                </div>
+              </a>
+              <a href="#projects">
+                <div className="menu-item">
+                  <span>PROJETOS</span>
+                </div>
+              </a>
             </div>
           </Style.Menu>
         </Style.Navigation>

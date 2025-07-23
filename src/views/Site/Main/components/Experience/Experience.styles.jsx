@@ -19,18 +19,21 @@ export const Card = styled.div`
   }
 `;
 
+export const Period = styled.div`
+  margin-right: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 200px;
+  /* color: #ed6104; */
+  opacity: 0.9;
+`;
+
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
   margin-left: 16px;
-`;
-
-export const Period = styled.div`
-  margin-right: 16px;
-  font-size: 15px;
-  width: 200px;
 `;
 
 export const Title = styled.div`

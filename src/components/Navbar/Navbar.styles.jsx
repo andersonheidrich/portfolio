@@ -87,21 +87,60 @@ export const Menu = styled.div`
   }
 
   .menu-item {
+    position: relative;
+    /* color: #fff; */
+    color: ${({ active }) => (active ? "#ed6104" : "#fff")};
+    /* text-decoration: none; */
+    transition: color 0.3s ease;
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
     align-items: center;
-    width: 120px;
+    width: max-content;
     margin-top: 24px;
     cursor: pointer;
-    /* border: 1px solid black;
-    border-radius: 4px;
-    padding: 4px; */
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      /* width: 0%; */
+      width: ${({ active }) => (active ? "100%" : "0%")};
+      height: 1px;
+      background-color: #ed6104;
+      transition: width 0.3s ease;
+    }
 
     &:hover {
       color: #ed6104;
     }
+
+    &:hover::after {
+      width: 100%;
+    }
   }
+
+  /* .menu-item {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    margin-top: 24px;
+    cursor: pointer;
+  }
+  .menu-item:hover {
+    color: #ed6104;
+  }
+
+  .menu-item::after {
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #ed6104;
+    transition: width 0.3s ease;
+  }
+
+  .menu-item:hover::after {
+    width: 100%;
+  } */
 
   /* @media screen and (max-width: 990px) {
     .menu-item {
