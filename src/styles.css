@@ -32,3 +32,8 @@ a {
 a:visited {
   color: inherit;
 }
+
+*::selection {
+  background-color: #ed6104;
+  color: #ffffff;
+}
