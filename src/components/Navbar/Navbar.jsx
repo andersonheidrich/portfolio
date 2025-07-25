@@ -7,12 +7,8 @@ const Header = () => {
   return (
     <Style.Container>
       <Style.Top>
-        <Style.Title>
-          <h1>Anderson Heidrich</h1>
-        </Style.Title>
-        <Style.Subtitle>
-          <h2>Desenvolvedor Front-End</h2>
-        </Style.Subtitle>
+        <Style.Title>Anderson Heidrich</Style.Title>
+        <Style.Subtitle>Desenvolvedor Front-End</Style.Subtitle>
         <Style.Navigation>
           <Style.Menu>
             <div className="nav-menu">
@@ -42,7 +38,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <GitHubIcon
-            style={{ width: "28px", height: "28px" }}
+            style={{ width: "32px", height: "32px" }}
             className="contact-icon"
           />
         </a>
@@ -52,7 +48,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <LinkedInIcon
-            style={{ width: "28px", height: "28px" }}
+            style={{ width: "32px", height: "32px" }}
             className="contact-icon"
           />
         </a>
@@ -62,7 +58,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <InstagramIcon
-            style={{ width: "28px", height: "28px" }}
+            style={{ width: "32px", height: "32px" }}
             className="contact-icon"
           />
         </a>

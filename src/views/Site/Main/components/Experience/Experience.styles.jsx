@@ -3,6 +3,20 @@ import styled from "styled-components";
 export const Section = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
+`;
+
+export const Menu = styled.div`
+  display: flex;
+
+  span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  @media screen and (min-width: 769px) {
+    display: none;
+  }
 `;
 
 export const Card = styled.div`
@@ -17,6 +31,10 @@ export const Card = styled.div`
   &:hover {
     background-color: rgba(41, 56, 90, 0.4);
   }
+
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const Period = styled.div`
@@ -25,6 +43,10 @@ export const Period = styled.div`
   font-weight: bold;
   width: 200px;
   opacity: 0.9;
+
+  @media screen and (max-width: 425px) {
+    margin-bottom: 8px;
+  }
 `;
 
 export const Content = styled.div`
@@ -32,7 +54,6 @@ export const Content = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
-  margin-left: 16px;
 `;
 
 export const Title = styled.div`
@@ -46,16 +67,21 @@ export const Text = styled.div`
   display: flex;
   height: 100%;
   margin-bottom: 16px;
+
+  ul {
+    margin-left: 20px;
+  }
 `;
 
 export const StackGroup = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 export const Stack = styled.div`
   display: flex;
   border-radius: 24px;
-  margin-right: 8px;
+  margin: 4px 4px 0 0;
   padding: 8px;
   font-size: 12px;
   font-weight: bold;

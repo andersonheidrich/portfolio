@@ -9,6 +9,9 @@ const Projects = () => {
   return (
     <Style.Section>
       <div id="projects" />
+      <Style.Menu>
+        <span>PROJETOS</span>
+      </Style.Menu>
       <a
         href="https://realizador-de-sorteios.vercel.app/"
         target="_blank"
