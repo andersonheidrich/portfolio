@@ -44,7 +44,7 @@ export const Card = styled.div`
 
 export const Period = styled.div`
   margin-right: 16px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   width: 200px;
   opacity: 0.9;

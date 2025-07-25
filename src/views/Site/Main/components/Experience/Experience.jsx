@@ -9,6 +9,31 @@ const Experience = () => {
         <span>EXPERIÊNCIA</span>
       </Style.Menu>
       <a
+        href="https://www.freatz.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Style.Card>
+          <Style.Period>DEZ 2021 — NOV 2024</Style.Period>
+          <Style.Content>
+            <Style.Title>Desenvolvedor Front-End · Freatz</Style.Title>
+            <Style.Text>
+              Participei ativamente de projetos que ajudaram empresas a entender
+              melhor o comportamento dos seus clientes, oferecendo informações
+              úteis para apoiar decisões do dia a dia, sempre com foco em
+              entregar soluções funcionais, intuitivas e voltadas à experiência
+              do usuário.
+            </Style.Text>
+            <Style.StackGroup>
+              <Style.Stack>JavaScript</Style.Stack>
+              <Style.Stack>TypeScript</Style.Stack>
+              <Style.Stack>React</Style.Stack>
+              <Style.Stack>Metodologias Ágeis</Style.Stack>
+            </Style.StackGroup>
+          </Style.Content>
+        </Style.Card>
+      </a>
+      <a
         href="https://www.instagram.com/labenu_/"
         target="_blank"
         rel="noopener noreferrer"
@@ -39,31 +64,6 @@ const Experience = () => {
               <Style.Stack>Styled Components</Style.Stack>
               <Style.Stack>API RESTful</Style.Stack>
               <Style.Stack>Git e GitHub</Style.Stack>
-            </Style.StackGroup>
-          </Style.Content>
-        </Style.Card>
-      </a>
-      <a
-        href="https://www.freatz.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Style.Card>
-          <Style.Period>DEZ 2021 — NOV 2024</Style.Period>
-          <Style.Content>
-            <Style.Title>Desenvolvedor Front-End · Freatz</Style.Title>
-            <Style.Text>
-              Participei ativamente de projetos que ajudaram empresas a entender
-              melhor o comportamento dos seus clientes, oferecendo informações
-              úteis para apoiar decisões do dia a dia, sempre com foco em
-              entregar soluções funcionais, intuitivas e voltadas à experiência
-              do usuário.
-            </Style.Text>
-            <Style.StackGroup>
-              <Style.Stack>JavaScript</Style.Stack>
-              <Style.Stack>TypeScript</Style.Stack>
-              <Style.Stack>React</Style.Stack>
-              <Style.Stack>Metodologias Ágeis</Style.Stack>
             </Style.StackGroup>
           </Style.Content>
         </Style.Card>
