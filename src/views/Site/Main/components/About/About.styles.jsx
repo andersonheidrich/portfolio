@@ -29,6 +29,6 @@ export const Content = styled.div`
   flex-direction: column;
 
   span {
-    margin-bottom: 40px;
+    margin-bottom: 24px;
   }
 `;
