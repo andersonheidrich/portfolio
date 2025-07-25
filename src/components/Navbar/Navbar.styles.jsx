@@ -3,35 +3,59 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 45%;
   height: 100%;
   justify-content: space-between;
-  font-family: Barlow, sans-serif;
-  padding: 80px 60px 80px 280px;
+  font-family: "Inter", sans-serif;
+  padding: 80px 40px 80px 200px;
 
   span {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
+  }
 
-    @media screen and (max-width: 990px) {
-      font-size: 14px;
-    }
+  @media screen and (max-width: 1440px) {
+    padding-left: 120px;
+  }
 
-    @media screen and (max-width: 425px) {
-      font-size: 12px;
+  @media screen and (max-width: 1024px) {
+    padding-left: 40px;
+    padding-right: 20px;
+
+    span {
+      font-size: 13px;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 60px 40px 40px;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 60px 24px 40px;
   }
 `;
 
 export const Title = styled.div`
   display: flex;
-  font-size: 24px;
+  font-size: 48px;
+  font-weight: bold;
   margin-bottom: 12px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 42px;
+  }
 `;
 
 export const Subtitle = styled.div`
   display: flex;
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: bold;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 20px;
+  }
 `;
 
 export const Top = styled.div`
@@ -45,28 +69,9 @@ export const Navigation = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 64px;
-`;
 
-export const Home = styled.div`
-  width: 180px;
-`;
-
-export const Logo = styled.div`
-  margin-top: auto;
-  margin-bottom: auto;
-
-  img {
-    width: 80px;
-    max-width: 80px;
-    cursor: pointer;
-
-    @media screen and (max-width: 990px) {
-      width: 70px;
-    }
-
-    @media screen and (max-width: 480px) {
-      width: 60px;
-    }
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;
 
@@ -78,10 +83,6 @@ export const Menu = styled.div`
   .nav-menu {
     display: flex;
     flex-direction: column;
-
-    @media screen and (max-width: 768px) {
-      width: 100%;
-    }
   }
 
   .menu-item {
@@ -123,5 +124,10 @@ export const Contact = styled.div`
   .contact-icon {
     margin: 0 8px;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 40px;
+    justify-content: flex-start;
   }
 `;

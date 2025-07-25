@@ -5,6 +5,9 @@ const About = () => {
   return (
     <Style.Section>
       <div id="about" />
+      <Style.Menu>
+        <span>SOBRE</span>
+      </Style.Menu>
       <Style.Content>
         <span>
           Desenvolvedor Front-End com 3 anos de experiência em JavaScript,

@@ -5,6 +5,9 @@ const Experience = () => {
   return (
     <Style.Section>
       <div id="experience" />
+      <Style.Menu>
+        <span>EXPERIÊNCIA</span>
+      </Style.Menu>
       <a
         href="https://www.instagram.com/labenu_/"
         target="_blank"
