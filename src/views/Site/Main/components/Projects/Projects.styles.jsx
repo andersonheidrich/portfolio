@@ -8,6 +8,7 @@ export const Section = styled.div`
 
 export const Menu = styled.div`
   display: flex;
+  margin-bottom: 16px;
 
   span {
     font-size: 16px;
