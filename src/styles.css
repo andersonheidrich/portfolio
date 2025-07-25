@@ -27,6 +27,7 @@ button {
 a {
   text-decoration: none;
   outline: none;
+  color: unset;
 }
 
 a:visited {
