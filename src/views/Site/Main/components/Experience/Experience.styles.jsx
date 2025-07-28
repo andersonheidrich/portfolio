@@ -87,7 +87,7 @@ export const StackGroup = styled.div`
 export const Stack = styled.div`
   display: flex;
   border-radius: 24px;
-  margin: 4px 4px 0 0;
+  margin: 8px 4px 0 0;
   padding: 8px;
   font-size: 12px;
   font-weight: bold;
