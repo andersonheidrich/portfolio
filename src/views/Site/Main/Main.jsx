@@ -1,6 +1,5 @@
-import React from "react";
 import * as Style from "./Main.styles";
-import { About, Experience, Projects } from "./components";
+import { About, Experience, Projects, SiteDescription } from "./components";
 
 const Main = () => {
   return (
@@ -8,6 +7,7 @@ const Main = () => {
       <About />
       <Experience />
       <Projects />
+      <SiteDescription />
     </Style.Container>
   );
 };

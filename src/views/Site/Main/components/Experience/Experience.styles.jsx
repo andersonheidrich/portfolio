@@ -4,9 +4,10 @@ export const Section = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 80px;
 
   @media screen and (max-width: 768px) {
-    margin-bottom: 16px;
+    margin-bottom: 60px;
   }
 `;
 
@@ -47,7 +48,7 @@ export const Period = styled.div`
   font-size: 14px;
   font-weight: bold;
   width: 200px;
-  opacity: 0.9;
+  opacity: 0.7;
 
   @media screen and (max-width: 425px) {
     margin-bottom: 8px;

@@ -1,8 +1,8 @@
 import "./styles.css";
-import AppRoutes from "./routes";
+import Home from "./views/Home";
 
 const App = () => {
-  return <AppRoutes />;
+  return <Home />;
 };
 
 export default App;

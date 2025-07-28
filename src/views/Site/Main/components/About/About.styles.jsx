@@ -4,9 +4,10 @@ export const Section = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 80px;
 
   @media screen and (max-width: 768px) {
-    margin-bottom: 16px;
+    margin-bottom: 60px;
   }
 `;
 
