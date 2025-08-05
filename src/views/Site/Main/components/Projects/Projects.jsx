@@ -3,7 +3,7 @@ import Sorteador from "../../../../../images/Projects/sorteador.png";
 import Todolist from "../../../../../images/Projects/todolist.png";
 import Ecommerce from "../../../../../images/Projects/ecommerce.png";
 import Games from "../../../../../images/Projects/games.png";
-import Calculator from "../../../../../images/Projects/calculator.png";
+import RickAndMorty from "../../../../../images/Projects/rickandmorty.png";
 
 const Projects = () => {
   return (
@@ -42,29 +42,28 @@ const Projects = () => {
         </Style.Card>
       </a>
       <a
-        href="https://andersonheidrich-to-do-list.vercel.app/"
+        href="https://rick-and-morty-and-me.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Style.Card>
           <Style.Image>
-            <img src={Todolist} />
+            <img src={RickAndMorty} />
           </Style.Image>
           <Style.Content>
-            <Style.Title>To Do List</Style.Title>
+            <Style.Title>Rick and Morty</Style.Title>
             <Style.Text>
-              Ferramenta desenvolvida para ajudar usuários a organizarem suas
-              atividades do dia a dia de forma prática e eficiente. Seu
-              principal objetivo é permitir que o usuário registre, visualize,
-              edite e conclua tarefas em um só lugar, promovendo maior controle
-              e produtividade.
+              Aplicação web que consome a API de Rick and Morty para exibir uma
+              lista de personagens, permitindo visualizar detalhes individuais e
+              marcar favoritos — que ficam salvos em um menu dedicado.
             </Style.Text>
             <Style.StackGroup>
-              <Style.Stack>HTML</Style.Stack>
-              <Style.Stack>CSS</Style.Stack>
-              <Style.Stack>JavaScript</Style.Stack>
+              <Style.Stack>Next.js</Style.Stack>
               <Style.Stack>React</Style.Stack>
-              <Style.Stack>Styled Components</Style.Stack>
+              <Style.Stack>TypeScript</Style.Stack>
+              <Style.Stack>Tailwind CSS</Style.Stack>
+              <Style.Stack>GraphQL</Style.Stack>
+              <Style.Stack>Apollo Client</Style.Stack>
               <Style.Stack>Vercel</Style.Stack>
             </Style.StackGroup>
           </Style.Content>
@@ -98,6 +97,35 @@ const Projects = () => {
         </Style.Card>
       </a>
       <a
+        href="https://andersonheidrich-to-do-list.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Style.Card>
+          <Style.Image>
+            <img src={Todolist} />
+          </Style.Image>
+          <Style.Content>
+            <Style.Title>To Do List</Style.Title>
+            <Style.Text>
+              Ferramenta desenvolvida para ajudar usuários a organizarem suas
+              atividades do dia a dia de forma prática e eficiente. Seu
+              principal objetivo é permitir que o usuário registre, visualize,
+              edite e conclua tarefas em um só lugar, promovendo maior controle
+              e produtividade.
+            </Style.Text>
+            <Style.StackGroup>
+              <Style.Stack>HTML</Style.Stack>
+              <Style.Stack>CSS</Style.Stack>
+              <Style.Stack>JavaScript</Style.Stack>
+              <Style.Stack>React</Style.Stack>
+              <Style.Stack>Styled Components</Style.Stack>
+              <Style.Stack>Vercel</Style.Stack>
+            </Style.StackGroup>
+          </Style.Content>
+        </Style.Card>
+      </a>
+      <a
         href="https://landing-page-games.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
@@ -124,36 +152,6 @@ const Projects = () => {
               <Style.Stack>React</Style.Stack>
               <Style.Stack>Styled Components</Style.Stack>
               <Style.Stack>Swiper</Style.Stack>
-              <Style.Stack>Vercel</Style.Stack>
-            </Style.StackGroup>
-          </Style.Content>
-        </Style.Card>
-      </a>
-      <a
-        href="https://andersonheidrichcalculator.vercel.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Style.Card>
-          <Style.Image>
-            <img src={Calculator} />
-          </Style.Image>
-          <Style.Content>
-            <Style.Title>Calculadora</Style.Title>
-            <Style.Text>
-              Desenvolvida para realizar as quatro operações matemáticas
-              fundamentais: adição, subtração, multiplicação e divisão. Com uma
-              interface intuitiva e fácil de usar, ela permite que o usuário
-              insira números e escolha a operação desejada. O resultado é
-              exibido instantaneamente, facilitando o uso tanto para fins
-              educacionais quanto para cálculos do dia a dia.
-            </Style.Text>
-            <Style.StackGroup>
-              <Style.Stack>HTML</Style.Stack>
-              <Style.Stack>CSS</Style.Stack>
-              <Style.Stack>JavaScript</Style.Stack>
-              <Style.Stack>React</Style.Stack>
-              <Style.Stack>Styled Components</Style.Stack>
               <Style.Stack>Vercel</Style.Stack>
             </Style.StackGroup>
           </Style.Content>
